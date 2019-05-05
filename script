@@ -1,0 +1,7 @@
+#!/bin/bash
+cd apps
+make
+./test1
+hexdump -C vdisk
+./test2
+hexdump -C vdisk
